@@ -7,17 +7,21 @@
     <title>TableTest</title>
     <style type="text/css">
         .auto-style1 {
-            height: 80px;
+            width: 100%;
+        }
+
+        .auto-style2 {
+            width: 200px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <table>
+            <table class="auto-style1">
                 <tr>
-                    <td class="auto-style1">Bulleted List:</td>
-                    <td class="auto-style1">
+                    <td class="auto-style2">Bulleted List:</td>
+                    <td>
                         <ul>
                             <li>Red</li>
                             <li>Blue</li>
@@ -26,7 +30,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Numbered List:</td>
+                    <td class="auto-style2">Numbered List:</td>
                     <td>
                         <ol>
                             <li>Things that are first</li>
@@ -36,7 +40,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><a href="../Default.aspx">Go to My Home Page</a></td>
+                    <td class="auto-style2"><a href="../Default.aspx">Go to My Home Page</a></td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
