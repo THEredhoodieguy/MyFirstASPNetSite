@@ -21,6 +21,12 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="lblGreeting" runat="server" Text="Label"></asp:Label>
+            <br />
+            <strong>Your Name:</strong>
+            <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+            <asp:Button ID="btnSubmit" runat="server" Text="Button" OnClick="btnSubmit_Click" />
+            <br />
+            <asp:Label ID="lblName" runat="server"></asp:Label>
         </div>
     </form>
 </body>
