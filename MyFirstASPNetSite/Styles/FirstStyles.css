@@ -4,7 +4,7 @@
     Created By: Matthew Pletcher
     Date Created: 03/22/18
     Last Modified By: Matthew Pletcher
-    Date Last Modified: 03/29/18
+    Date Last Modified: 04/03/18
     Assignment/Project: Homework Project 1
     Part Of: MyFirstASPNetSite
 */
@@ -21,10 +21,32 @@ h1 {
 }
 
 #Header {
-    background-color: #C0C0C0;
     width: 844px;
     height: 83px;
 }
+
+.flex-container {
+    display: flex;
+    background-color: dodgerblue;
+    border-radius: 4px;
+}
+
+    /*we use divs inside of a flex-box to create navigation menu buttons*/
+    .flex-container > div {
+        background-color: orangered;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        width: 100px;
+    }
+    /*we want to make text less ugly on its background in the navbar*/
+    .flex-container > div > a {
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        text-decoration: none;
+    }
 
 #PageWrapper {
     width: 844px;

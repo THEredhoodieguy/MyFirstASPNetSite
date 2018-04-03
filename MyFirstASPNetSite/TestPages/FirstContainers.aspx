@@ -11,7 +11,7 @@
         Created By: Matthew Pletcher
         Date Created: 03/29/18
         Last Modified By: Matthew Pletcher
-        Date Last Modified: 03/29/18
+        Date Last Modified: 04/03/18
         Assignment/Project: Meeting Guide 5
         --%>
 </head>
@@ -24,7 +24,7 @@
             </asp:Panel>
             <br />
             <br />
-            <asp:CheckBox ID="chkShowPanel2" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" />
+            <!--<asp:CheckBox ID="chkShowPanel2" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" />-->
         </div>
     </form>
 </body>
