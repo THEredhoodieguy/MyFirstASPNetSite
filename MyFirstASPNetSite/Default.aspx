@@ -19,10 +19,10 @@
                 uses a flexbox to hold everything-->
             <div><a href="Default.aspx">Home</a></div>
             <div><a href="TestPages/CSSTest.aspx">CSS Testing</a></div>
-            <div><a href="TestPages/FirstCodeBehind.aspx">Scripting with Extra Files</a></div>
-            <div><a href="TestPages/FirstContainers.aspx">Switchable Elements</a></div>
+            <div><a href="TestPages/FirstCodeBehind.aspx">External Scripting</a></div>
+            <div><a href="TestPages/FirstContainers.aspx">Switches</a></div>
             <div><a href="TestPages/FirstLine.aspx">Inline Scripting</a></div>
-            <div><a href="TestPages/TableTest.aspx">Tables for Organizing</a></div>
+            <div><a href="TestPages/TableTest.aspx">Tables</a></div>
         </div>
         <div id="MenuWrapper"></div>
         <div id="MainContent">
@@ -31,7 +31,7 @@
             <p><strong>Please</strong> feel free to look around and see if there are any new and interesting things I&#39;ve been able to add to my ASP-based web site.</p>
         </div>
         <div id="Sidebar">Sidebar goes here</div>
-        <div id="Footer"><em>Built in Web Design with C#, Designed by Matthew Pletcher Spring 2018</em></div>
+        <div id="Footer"><em>Built in Web Design with C#, Styling Designed by Matthew Pletcher Spring 2018</em></div>
     </div>
     
 </asp:Content>

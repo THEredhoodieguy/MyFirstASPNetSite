@@ -38,13 +38,14 @@ h1 {
         margin-right: 10px;
         padding-top: 35px;
         padding-bottom: 35px;
-        width: 100px;
+        width: 123px;
+        text-align: center;
+        border-radius: 2px;
     }
     /*we want to make text less ugly on its background in the navbar*/
     .flex-container > div > a {
         color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
         text-decoration: none;
     }
 
