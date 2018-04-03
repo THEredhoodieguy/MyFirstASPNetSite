@@ -8,7 +8,7 @@
     <link href="../Styles/FirstStyles.css" rel="stylesheet" />
     <%-- 
         FirstContainers.aspx
-        
+        This page tests various methods of changing visibility of a container
         Created By: Matthew Pletcher
         Date Created: 03/29/18
         Last Modified By: Matthew Pletcher

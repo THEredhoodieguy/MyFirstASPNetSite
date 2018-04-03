@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 //FirstCodeBehind.aspx.cs
-//This file is the script loaded by FirstCodeBehind
+//This file is the script loaded by FirstCodeBehind, it loads the current date/time to the page and allows for changing text on the page
 //Created By: Matthew Pletcher
 //Date Created: 03/20/18
 //Last Modified By: Matthew Pletcher
