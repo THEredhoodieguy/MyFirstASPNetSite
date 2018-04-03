@@ -11,7 +11,7 @@
         Created By: Matthew Pletcher
         Date Created: 03/22/18
         Last Modified By: Matthew Pletcher
-        Date Last Modified: 03/29/18
+        Date Last Modified: 04/03/18
         Assignment/Project: Homework Project 1
         Part Of: MyFirstASPNetSite
         -->
@@ -47,18 +47,36 @@
             font-weight: bold;
         }
     </style>
+    <link href="../Styles/FirstStyles.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <h1>Welcome to my First Document-wide CSS Page!</h1>
-
-            <p>CSS makes it easier to clearly and consistently control the appearance of your web pages.</p>
-
-            <p class="RightAligned">Once you know the rules, you can quickly add or change the code and, therby, change the look of your page.</p>
-
-            <p id="IntroText">This paragraph uses the ID selector to change the text from a font-weight of normal to a font-weight of bold.</p>
+    <div id="PageWrapper">
+        <div id="Header" class="flex-container">
+            <!--Header navigation section
+                uses a flexbox to hold everything-->
+            <div><a href="../Default.aspx">Home</a></div>
+            <div><a href="../TestPages/CSSTest.aspx">CSS Testing</a></div>
+            <div><a href="../TestPages/FirstCodeBehind.aspx">External Scripting</a></div>
+            <div><a href="../TestPages/FirstContainers.aspx">Switches</a></div>
+            <div><a href="../TestPages/FirstLine.aspx">Inline Scripting</a></div>
+            <div><a href="../TestPages/TableTest.aspx">Tables</a></div>
         </div>
-    </form>
+        <div id="MenuWrapper"></div>
+        <div id="MainContent">
+            <form id="form1" runat="server">
+                <div>
+                    <h1>Welcome to my First Document-wide CSS Page!</h1>
+
+                    <p>CSS makes it easier to clearly and consistently control the appearance of your web pages.</p>
+
+                    <p class="RightAligned">Once you know the rules, you can quickly add or change the code and, therby, change the look of your page.</p>
+
+                    <p id="IntroText">This paragraph uses the ID selector to change the text from a font-weight of normal to a font-weight of bold.</p>
+                </div>
+            </form>
+        </div>
+        <div id="Sidebar">Sidebar goes here</div>
+        <div id="Footer"><em>Built in Web Design with C#, Styling Designed by Matthew Pletcher Spring 2018</em></div>
+    </div>
 </body>
 </html>

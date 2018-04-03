@@ -60,6 +60,7 @@ h1 {
 #MainContent {
     width: 644px;
     float: left;
+    min-height: 400px;
 }
 
 #Sidebar {

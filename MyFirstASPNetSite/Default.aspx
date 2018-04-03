@@ -17,12 +17,12 @@
         <div id="Header" class="flex-container">
             <!--Header navigation section
                 uses a flexbox to hold everything-->
-            <div><a href="Default.aspx">Home</a></div>
-            <div><a href="TestPages/CSSTest.aspx">CSS Testing</a></div>
-            <div><a href="TestPages/FirstCodeBehind.aspx">External Scripting</a></div>
-            <div><a href="TestPages/FirstContainers.aspx">Switches</a></div>
-            <div><a href="TestPages/FirstLine.aspx">Inline Scripting</a></div>
-            <div><a href="TestPages/TableTest.aspx">Tables</a></div>
+            <div><a href="../Default.aspx">Home</a></div>
+            <div><a href="../TestPages/CSSTest.aspx">CSS Testing</a></div>
+            <div><a href="../TestPages/FirstCodeBehind.aspx">External Scripting</a></div>
+            <div><a href="../TestPages/FirstContainers.aspx">Switches</a></div>
+            <div><a href="../TestPages/FirstLine.aspx">Inline Scripting</a></div>
+            <div><a href="../TestPages/TableTest.aspx">Tables</a></div>
         </div>
         <div id="MenuWrapper"></div>
         <div id="MainContent">
